@@ -36,7 +36,7 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(e) { 
-    player.playVideo();
+    //player.playVideo();
     $("#video-title").text(player.videoTitle);
 }
 function onPlayerStateChange(e) {
